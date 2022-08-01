@@ -1,0 +1,271 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*=====================
+Body
+=======================
+*/
+
+body {
+	color: black;
+	font: 300 16px/22px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: ghostwhite;
+}
+
+/*=====================
+Clearfix
+=======================
+*/
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+
+/*=====================
+Float
+=======================
+*/
+
+[class*="col-"] {
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+  }
+.col-1 {
+	width: 15%;
+
+}
+.col-2 {
+	width: 25%;
+}
+.col-3 {
+	width: 50%;
+}
+
+
+[class*="col-"] {
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+  }
+.col-4 {
+	width: 30%;
+    ;
+}
+.col-5 {
+	width: 40%;
+}
+
+/*
+=======================
+intro
+=======================
+*/
+
+
+h1 {
+	display: block;
+	text-align-last: right;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+h2 {
+	font-size: 36px;
+	line-height: 44px;
+	text-align: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: mintcream;
+	font-family: 'Times New Roman', Times, serif;
+}
+h3 {
+	padding-top: 30px;
+	line-height: 22px;
+	font-size: 18px;
+	text-align: right;
+	color: mintcream;
+}
+h4 {
+	font-size: 26px;
+	line-height: 40px;
+}
+h5 {
+	font-size: 18px;
+	line-height: 44px;
+	color: mintcream;
+}
+nav {
+	text-align-last: right;
+	font-size: 18px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 50px;
+	padding-right: 130px;
+	word-spacing: 10px;
+	text-transform: uppercase;
+	font-family: 'Times New Roman', Times, serif;
+}
+.menu {
+		text-align-last: right;
+		font-size: 18px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 50px;
+		padding-right: 130px;
+		word-spacing: 10px;
+}
+h5 {
+	text-align-last: right;
+	font-size: 18px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 50px;
+	padding-right: 130px;
+}
+h7 {
+	font-size: 20px;
+	line-height: 44px;
+}
+.pad,
+.style {
+	padding-left: 120px;
+	padding-right: 120px; 
+}
+p {
+	line-height: 22px;
+	text-indent: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.add {
+	text-align: center;
+}
+ul {
+	list-style-type: square;
+}
+.b {
+	line-height: 33px;
+}
+#myDIV {
+	color: hsla(315, 83%, 48%, 0.884);
+	animation: mymove 5s infinite;
+  }
+@keyframes mymove {
+	from {color: black;}
+	to {color: #ff000d;}
+  }
+  .anchors {
+	display: block;
+	padding: 5px;
+	
+  }
+
+.style{
+	
+  }
+  label{
+	  line-height: 32px;
+  }
+  .bt{
+	padding-left: 120px;
+	padding-right: 120px; 
+  }
+
+/*
+===================
+Buttons
+===================
+*/
+a {
+	color: mediumblue;
+	text-decoration: none;
+}
+a:hover {
+	color: mediumslateblue;
+}
+
+
+.btn-base {
+	border-radius: 5px;
+	display: inline-block;
+	margin: 20px;
+	color: rgb(26, 73, 143);
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.btn-gen {
+	border: 1px solid rgb(32, 27, 27);
+	padding: 10px 30px;
+}
+
+.btn-gen:hover {
+	background: rgb(46, 32, 173);
+	color: #feffff;
+}
+
+
+footer {
+	background-color: rgb(55, 69, 71);
+}
+
+header {
+	background-color: rgb(55, 69, 71);
+	
+}
